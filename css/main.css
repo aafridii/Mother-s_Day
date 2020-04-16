@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "lobster";
+  src: url(../Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: "love";
+  src: url(../Fonts/love/BamsHand.ttf);
+}
+
+@font-face {
+  font-family: "pinky";
+  src: url(../Fonts/pinky_cupid/Pinky\ Cupid.otf);
+}
+
+@font-face {
+  font-family: "eras";
+  src: url(../Fonts/ERASDEMI.TTF);
+}
+
+@font-face {
+  font-family: "of";
+  src: url(../Fonts/ds_digital/DS-DIGI.TTF);
+}
+
+@font-face {
+  font-family: "led";
+  src: url(../Fonts/led_calculator/LEDCalculator.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+.bg {
+  background-color:  #121212;
+  background-image: url(../img/111.png);
+  image-resolution: 100%;
+  
+}
+
+#hmd {
+  
+  margin-top: 0;
+  border-bottom: 3px solid rgb(99, 99, 99);
+  font-size: 4vw;
+  background-color: transparent;
+  font-family: "eras";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  top: 0;
+  padding-bottom: 10px;
+  
+}
+.tbox {
+  top: 0;
+  left: 0;
+}
+#demo {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  /* text-align: center; */
+  font-size: 1.1vw;
+  /* font-weight: bolder; */
+  font-family: "led";
+  margin-top: 0px;
+
+}
+
+#dear {
+  position: absolute;
+  left: 4vw;
+  margin-top: 1.5vw;
+  color: #fff5c8;
+  font-size: 1.5vw;
+  font-family: "lobster";
+}
+
+#txt {
+
+  margin-top: 12vw;
+  color: rgb(255, 233, 133);
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+  background-color: transparent;
+  font-family: "lobster";
+  font-size: 2vw;
+  word-spacing: 5px;
+  
+}
+.button {
+  
+  text-align: center;
+}
+
+
+.link {
+  
+	display: inline-block;
+	color: #fff;
+	font-family: Arial;
+	font-size: 1vw;
+	/* margin-top: 30px; */
+	/* margin-left: 10px; */
+  letter-spacing: 1px;
+  
+  margin-top: 12vw;
+  background-color: transparent;
+  cursor: pointer;
+  border: .15vw solid white;
+  border-radius: 1vw;
+  padding: .4vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+
+
+.link:hover{
+  background-color: rgb(44, 44, 44);
+  
+  color: rgb(190, 190, 190);	
+  
+  }

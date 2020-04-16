@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "lobster";
+  src: url(../Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: "love";
+  src: url(../Fonts/love/BamsHand.ttf);
+}
+
+@font-face {
+  font-family: "pinky";
+  src: url(../Fonts/pinky_cupid/Pinky\ Cupid.otf);
+}
+
+@font-face {
+  font-family: "har";
+  src: url(../Fonts/HARLOWSI.TTF);
+}
+
+
+
+
+body {
+  margin: 0;
+}
+
+.bg {
+  background-color: rgb(15, 15, 15);
+  margin-top: 0;
+  height: 26vw;
+  padding: .57vw;
+  
+}
+
+.box{
+	display: inline-block;
+	margin-left: 10%;
+	margin-bottom: 0px;
+	width: 20%;
+	padding-bottom: 0px;
+	font-family: Arial;
+}
+.image{
+	display: block;
+	width: 100%;
+}
+
+
+.logo {
+  position: absolute;
+  /* height: 350px;
+  width: 450px; */
+  height: 20vw;
+  width: 25vw;
+  margin-left: 7vw;
+  margin-top: 2vw;
+}
+
+.desc {
+   position: absolute;
+   
+   right: 13vw;
+   font-size: 4vw;
+   font-family: "har";
+   color: rgb(180, 180, 180);
+   top: 8vw;
+}
+
+
+
+.desc2 {
+  
+  padding-left: 15vw;
+}
+
+.log {
+  position: absolute;
+  right: 0;
+  /* margin-top: 15px; */
+  bottom: 0px;
+}
+
+.logo1{
+  /* width: 130px;
+  height: 80px; */
+  width: 5vw;
+  height: 3vw;
+  
+}
+
+.op:hover {
+  opacity: 0.5;
+}
