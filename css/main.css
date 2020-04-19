@@ -127,9 +127,15 @@ body {
 
 .link:hover{
   background-color: rgb(44, 44, 44);
-  
+  transform: translateY(-3px);
   color: rgb(190, 190, 190);	
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
   
+  }
+
+  .link:active {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
   }
 
 
@@ -150,3 +156,4 @@ body {
   .op:hover {
     opacity: 0.5;
   }
+
