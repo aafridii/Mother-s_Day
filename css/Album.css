@@ -30,7 +30,9 @@ body {
   background-color: rgb(15, 15, 15);
   margin-top: 0;
   /* height: 26vw; */
-  padding: .57vw;
+  /* padding: 1vw; */
+  padding-left: 2.5vw;
+  padding-top: 1vw;
   
 }
 
