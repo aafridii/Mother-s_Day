@@ -36,12 +36,14 @@ body {
 
 .box{
   position: relative;
-  
+  text-align: center;
 	display: inline-block;
-	margin-left: 10%;
-	margin-bottom: 0px;
+  margin-left: 10%;
+  margin-right: auto;
+  
+	/* margin-bottom: 0px; */
 	width: 350px;
-	padding-bottom: 0px;
+	/* padding-bottom: 0px; */
 	font-family: Arial;
 }
 .image{
