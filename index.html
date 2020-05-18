@@ -1,86 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./img/icons8-single-mother-90.png"
+    />
+    <title>Happy Mother's Day</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="shortcut icon" type="image/png" href="./img/icons8-single-mother-90.png">
-  <title>Happy Mother's Day</title>
-</head>
+  <body class="bg">
+    <div class="tbox">
+      <p id="demo"></p>
+      <script>
+        var countDownDate = new Date("May 10, 2021 00:00:00").getTime();
 
-<body class="bg">
-  <div class="tbox">
-    <p id="demo"></p>
-    <script>
+        var x = setInterval(function () {
+          var now = new Date().getTime();
 
-      var countDownDate = new Date("May 10, 2020 00:00:00").getTime();
+          var distance = countDownDate - now;
 
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-      var x = setInterval(function () {
+          document.getElementById("demo").innerHTML =
+            days +
+            "day " +
+            hours +
+            "hour " +
+            minutes +
+            "min " +
+            seconds +
+            "sec ";
 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Happening Now";
+          }
+        }, 1000);
+      </script>
+    </div>
 
-        var now = new Date().getTime();
+    <div id="hmd">Happy Mother's Day</div>
 
+    <div id="dear">
+      Dear Mom,
+    </div>
 
-        var distance = countDownDate - now;
+    <div id="txt">
+      “You're my one and only mom, and I'll always have a special place in my
+      heart for you. I'm so proud to be your kid. <br /><br />
+      Right from the start, you were the one who nurtured me, prayed over me,
+      worried about me, guided me and supported me in every pursuit. Thank you
+      for being there every day with just the love I needed.”
+    </div>
 
+    <div class="button">
+      <a class="link" href="./Album.html"
+        >Album
+        <span>&#8594;</span>
+      </a>
+    </div>
 
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-
-        document.getElementById("demo").innerHTML = days + "day " + hours + "hour "
-          + minutes + "min " + seconds + "sec ";
-
-
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "Happening Now";
-        }
-      }, 1000);
-    </script>
-  </div>
-
-
-  <div id="hmd">Happy Mother's Day</div>
-
-  <div id="dear">
-
-    Dear Mom,
-
-  </div>
-
-  <div id="txt">
-
-    “You're my one and only mom, and I'll always have a special place in my heart for you. I'm so proud to
-    be your kid. <br><br> Right from the start, you were the one who nurtured me, prayed over me,
-    worried about me,
-    guided
-    me
-    and supported me in every pursuit. Thank you for being there every day with just the love I needed.”
-  </div>
-
-  <div class="button">
-
-    <a class="link" href="./Album.html">Album
-      <span>&#8594;</span>
-
-    </a>
-
-  </div>
-
-  <div class="log">
-
-    <a href="https://www.facebook.com/afridii.haque/" class="op">
-      <img class="logo1" src="./img/logomee.png" alt="fb">
-    </a>
-
-  </div>
-
-
-</body>
-
+    <div class="log">
+      <a href="https://www.facebook.com/afridii.haque/" class="op">
+        <img class="logo1" src="./img/logomee.png" alt="fb" />
+      </a>
+    </div>
+  </body>
 </html>
